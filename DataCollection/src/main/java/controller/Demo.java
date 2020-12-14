@@ -32,6 +32,7 @@ public class Demo implements Servlet{
 		System.out.println(number);
 		System.out.println(email);
 		System.out.println(password);
+		System.out.println("Data has been collected");
 	}
 
 	public String getServletInfo() {
