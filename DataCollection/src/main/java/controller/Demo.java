@@ -32,6 +32,7 @@ public class Demo implements Servlet{
 		System.out.println(number);
 		System.out.println(email);
 		System.out.println(password);
+		System.out.println("data has been updated");
 	}
 
 	public String getServletInfo() {
