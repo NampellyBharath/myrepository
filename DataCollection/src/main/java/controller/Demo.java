@@ -28,10 +28,12 @@ public class Demo implements Servlet{
 		String number =req.getParameter("number");
 		String email =req.getParameter("email");
 		String password =req.getParameter("password");
+		String location=req.getParameter("location");
 		System.out.println(name);
 		System.out.println(number);
 		System.out.println(email);
 		System.out.println(password);
+		System.out.println(location);
 		System.out.println("data has been updated");
 		System.out.println("data collected");
 	}
